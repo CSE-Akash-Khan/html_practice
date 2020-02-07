@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    background-color: gainsboro;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background: rgb(68, 0, 0);
+    color: white;
+    border-bottom: black 3px solid;
+    padding-top: 25px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+header .current a{
+    color: gray;
+    font-weight: bold;
+}
+header a:hover{
+    color: gray;
+    font-weight: bold;
+}
+nav li{
+    float: left;
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+header #title{
+    float: left;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header a{
+    font-weight: bold;
+}
+
+header h1{
+    padding-bottom: 10px;
+}
+header img{
+    width: 35px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+header .highlight{
+    font-size: 35px;
+    color: orange;
+}
+
+#showcase{
+    background: url('../img/showcase1.jpg') no-repeat 0;
+    background-size: cover;
+    height: 400px;
+    color: white;
+    border-bottom: 3px black solid;
+}
+
+#showcase h1{
+    padding-top: 10px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+#showcase h2{
+    padding-top: 20px;
+}
+#showcase p{
+    padding: 0px;
+}
+
+.box{
+    float: left;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+}
+#pic img{
+    width: 50px;
+}
+
+#pic2 img{
+    width: 50px;
+}
+
+#pic3 img{
+    width: 50px;
+}
+
+/*about section*/
+article .about{
+    width: 30%;
+}
+
+table,th,tr,td{
+    border: 1px black solid;
+    border-collapse: collapse;
+    width: 500px;
+
+}
+table, td{
+    padding: 8px;
+}
+#table{
+    margin-top: 15px;
+    background-color: burlywood;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+caption{
+    margin-bottom: -5px;
+}
+
+/*message*/
+.color{
+    text-align: center;
+    background: gray;
+}
+
+form .name{
+    padding: 0px 50px 0px 50px;
+    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    background: rgb(114, 3, 3);
+    padding: 15px;
+    border: 2px black solid;
+}
