@@ -1,0 +1,62 @@
+body{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+    padding: 0;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    border-bottom: 2px solid gray; 
+}
+ul li{
+    display: flex;
+    margin: 0;
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+header{
+    background: url(../img/show.jpg) no-repeat 0 -300px;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+#section_1{
+    width: auto;
+    margin-top: -80px;
+    display: flex;
+}
+.first_section_left{
+    padding-right: 50px;
+}
+.first_section_right{
+    padding-left: 50px;
+}
+h2 img{
+    width: 50px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+}
+#section_2{
+    background: url(../img/section2.jpg) no-repeat 0 -100px;
+    background-size: cover;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+#section_2 h1{
+    padding-top: 40px;
+    font-size: 25px;
+}
+#section_3 .third_section{
+    float: left;
+}
